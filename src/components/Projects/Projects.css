@@ -1,0 +1,21 @@
+.p_container{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    margin:3rem 0 1rem 0;
+    height:80%;
+    background-color: black;
+}
+
+.p_container h2{
+    color:#00bebe;
+}
+
+.project1{
+    display: flex;
+}
+
+.project2{
+    display: flex;
+}

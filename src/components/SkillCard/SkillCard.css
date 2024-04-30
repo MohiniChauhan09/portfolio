@@ -1,0 +1,31 @@
+.s_card{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height:10rem;
+    width:12rem;
+    border:3px solid #171818;
+    margin-right: .5rem;
+    margin-left: .5rem;
+    border-radius: 2.3rem;
+}
+
+.s_card:hover{
+    transition: 1s ease-in-out;
+    transform: translateY(-1rem);
+}
+.s_card p{
+    color:#554b51;
+}
+
+.s_card img{
+    height:5rem;
+    width:5rem;
+    border-radius: 100%;
+}
+
+.s_card .s_name{
+    color:#F1D4E5;
+    font-weight: bold;
+}

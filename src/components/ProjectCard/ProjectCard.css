@@ -1,0 +1,81 @@
+.p_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border:3px solid rgb(49, 47, 47);
+    border-radius:10px;
+    height:26rem;
+    width: 25rem;
+    margin: 2.7rem 1.5rem 1.5rem 1.5rem;
+    color:white;
+    padding:0;
+
+}
+
+.p_card img{
+    height:11rem;
+    width:22rem;
+    margin:1.3rem 0 1.3rem 1.3rem;
+    border-radius: 5px;
+}
+
+.p_text{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.3rem;
+}
+
+.p_text h3{
+    color:#2e94b9;
+    font-size: 1.5rem;
+}
+
+.p_text h4{
+    font-weight: 600;
+    color:#73BBC9;
+    margin:.2rem 0 1rem 0;
+    font-size:1rem;
+}
+
+.p_text p{
+    font-size:.8rem;
+    color:#F1D4E5;
+}
+.p_btn{
+    margin:2rem 8rem 1.2rem 8rem;
+    background-color: #73BBC9;
+    color: black;
+    padding:.7rem 1.2rem .7rem 1.2rem;
+    width:9rem;
+    height:6rem;
+    border-radius:2rem;
+    border:none;
+}
+
+.p_btn a{
+    text-decoration: none;
+    font-size: 1rem;
+    color:rgb(65, 63, 63);
+    font-weight: bold;
+}
+.p_btn a:hover{
+    color:black;
+}
+
+.p_btn:hover{
+    border:none;
+    background-color: #F1D4E5;
+}
+
+.eye{
+    color:rgb(65, 63, 63);
+    height:1rem;
+    width:1rem;
+    margin-right:.3rem;
+}
+.eye:hover{
+    color:black;
+}
